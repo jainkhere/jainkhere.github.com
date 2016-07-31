@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>tech.log</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.9</generator><lastBuildDate>Sun, 31 Jul 2016 07:01:00 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">ea94bd61-9cd9-4283-a1f5-9b4a66462a6a</guid><category>Getting Started</category><dc:creator>kunal jain</dc:creator><pubDate>Sun, 31 Jul 2016 06:51:14 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>tech.log</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.9</generator><lastBuildDate>Sun, 31 Jul 2016 08:41:37 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">ea94bd61-9cd9-4283-a1f5-9b4a66462a6a</guid><category>Getting Started</category><dc:creator>kunal jain</dc:creator><pubDate>Sun, 31 Jul 2016 06:51:14 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
 
 &lt;h2 id="gettingstarted"&gt;Getting Started&lt;/h2&gt;
 
@@ -63,4 +63,87 @@
 
 &lt;p&gt;&lt;input type="text" placeholder="I'm an input field!"&gt;&lt;/p&gt;
 
-&lt;p&gt;That should be enough to get you started. Have fun - and let us know what you think :)&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;That should be enough to get you started. Have fun - and let us know what you think :)&lt;/p&gt;</content:encoded></item><item><title>Mozilla Maker Party 2k15</title><description>&lt;p&gt;You know, what is good about Mozilla Community? &lt;br&gt;
+They never say &lt;strong&gt;NO&lt;/strong&gt;!!! &lt;br&gt;
+You want to contribute, yes. You want to develop, yes. You want to join, a yes surely. Their openness is the thing which everyone likes about them. &lt;br&gt;
+And what else day could you choose to promote Mozilla community,&lt;/p&gt;</description><link>http://localhost:2368/mozilla-maker-party-2k15/</link><guid isPermaLink="false">6d13568d-f4fb-4303-9398-ab4a6afbfd5c</guid><dc:creator>kunal jain</dc:creator><pubDate>Mon, 12 Oct 2015 12:00:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/07/12034277_1212115595480564_6698029746767033348_o-1.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/07/12034277_1212115595480564_6698029746767033348_o-1.jpg" alt="Mozilla Maker Party 2k15"&gt;&lt;p&gt;You know, what is good about Mozilla Community? &lt;br&gt;
+They never say &lt;strong&gt;NO&lt;/strong&gt;!!! &lt;br&gt;
+You want to contribute, yes. You want to develop, yes. You want to join, a yes surely. Their openness is the thing which everyone likes about them. &lt;br&gt;
+And what else day could you choose to promote Mozilla community, other than Software Freedom Day.&lt;/p&gt;
+
+&lt;p&gt;So the stage was set for &lt;em&gt;the&lt;/em&gt; Biggest Software Freedom Day Celebration of the North India at none other than National Institute of Technology, Hamirpur(H.P) on the 19th of September and the key event of the celebration was &lt;strong&gt;Mozilla Maker Party&lt;/strong&gt;. The event, mainly comprising of the Freshers of the campus, was awesome and fun, just what maker party should be.Audience was initially unknown to world of Mozilla but when they left the event I am sure they left with quite an experience. When Varun Kalra,our college's Firefox Student Ambassador, initially asked audience if they knew what Mozilla was, only few among them really could tell what it was, but in the end everyone of them was willing to contribute to the community in one way or other. They learned how to make apps, the easy way, using &lt;strong&gt;app maker&lt;/strong&gt; and were simply awe struck when introduced to the &lt;strong&gt;x-ray googles&lt;/strong&gt;. What got audience most excited were Mozilla schwags and when students were showing and sharing their schwags with friends, the atmosphere was inspiring as a new generation was now part of The Mozilla Community.&lt;/p&gt;
+
+&lt;h2 id="whatabouttheconclusion"&gt;What about the Conclusion?&lt;/h2&gt;
+
+&lt;p&gt;The Party isn't over yet. Students have shown keen interest in Web Maker tools and as I am writing this blog, might be possible that some students in the campus are busy making some awesome stuff using those tools. A tool like Web Maker is &lt;em&gt;the&lt;/em&gt; next big thing in development and I hope that Mozilla will keep creating such wonderful applications to develop the web, &lt;strong&gt;for the people and by the people&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Looking forward to the next Mozilla Event...&lt;/p&gt;</content:encoded></item><item><title>How to setup Ghost for Github Pages</title><description>&lt;p&gt;GitHub provides a good option for hosting static blog as GitHub Pages and there are numerous platform to set up that static blog. Many of my friends use Jekyll for that purpose but I wanted to try something new so I thought about giving Ghost a try.&lt;/p&gt;
+
+&lt;p&gt;Ghost is really&lt;/p&gt;</description><link>http://localhost:2368/how-to-setup-ghost-for-github-pages/</link><guid isPermaLink="false">451236e1-b891-4141-a656-a6c297b32174</guid><dc:creator>kunal jain</dc:creator><pubDate>Fri, 25 Sep 2015 08:32:00 GMT</pubDate><content:encoded>&lt;p&gt;GitHub provides a good option for hosting static blog as GitHub Pages and there are numerous platform to set up that static blog. Many of my friends use Jekyll for that purpose but I wanted to try something new so I thought about giving Ghost a try.&lt;/p&gt;
+
+&lt;p&gt;Ghost is really powerful blogging platform that is also open source, what else do you need? &lt;br&gt;
+Yes you are right, A small tutorial so that you can too set up Ghost for your GitHub Pages.&lt;/p&gt;
+
+&lt;h2 id="installnodejs"&gt;Install Node.js&lt;/h2&gt;
+
+&lt;p&gt;Since Ghost is based on &lt;strong&gt;Node.js&lt;/strong&gt; you will need it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#dnf install nodejs
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you are on Linux almost all chances are that you have wget, but if you don't have wget just use command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#dnf install wget
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and you are good to go.&lt;/p&gt;
+
+&lt;h2 id="downloadandinstallghost"&gt;Download and install Ghost&lt;/h2&gt;
+
+&lt;p&gt;After you have install node.js next up is downloading and installing the Ghost package.&lt;/p&gt;
+
+&lt;p&gt;Here I am creating an all new directory for Ghost but it all depends on you where you want to keep your files.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir Ghost  
+cd Ghost  
+wget --no-check-certificate https://ghost.org/zip/ghost-0.7.0.zip  
+unzip ghost-0.7.0.zip
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;These commands will download the Ghost package from &lt;a href="http://ghost.org"&gt;The Ghost Website&lt;/a&gt;. Now to install it just run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install --production
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and congratulations, you have successfully installed Ghost on your system. To start Ghost run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm start
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and Ghost is up and running locally on your system. Open &lt;a href="http://localhost:2368/how-to-setup-ghost-for-github-pages/../"&gt;http://localhost:2368&lt;/a&gt; create a ghost account for yourself and read the initial blog on how to use markdown.&lt;/p&gt;
+
+&lt;h2 id="createyourgithubrepo"&gt;Create your GitHub Repo&lt;/h2&gt;
+
+&lt;p&gt;First read official GitHub Pages documentation &lt;a href="https://help.github.com/categories/github-pages-basics/"&gt;here&lt;/a&gt; and proceed to create your repo. &lt;br&gt;
+Do &lt;em&gt;remember&lt;/em&gt; that your repo name should be of form &lt;code&gt;username.github.io&lt;/code&gt; and username should be in lower case.&lt;/p&gt;
+
+&lt;h2 id="exportghostcontentusingbuster"&gt;Export Ghost content using Buster&lt;/h2&gt;
+
+&lt;p&gt;Once you have installed Ghost and also created repo, it is now turn to export your Ghost content to your GitHub Pages and start your static blog. Buster is really good tool to do so without any hassle. Install Buster with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#dnf install pip
+#pip install buster
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After installation is Complete, simply run following commands to export your content&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;buster setup --gh-repo=&amp;lt;your repo url&amp;gt;  
+buster generate --domain=http://localhost:2368  
+buster deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With this Buster adds, commits and pushes your Ghost content to your GitHub repo. All you have to do now is open &lt;a href="http://kunal95jain.github.io/"&gt;http://username.github.io&lt;/a&gt; and admire the beauty of Ghost on your blog.&lt;/p&gt;
+
+&lt;p&gt;For writing and exporting new posts just start ghost and then deploy content using buster.&lt;/p&gt;
+
+&lt;p&gt;That's it and Happy Blogging : )&lt;/p&gt;</content:encoded></item></channel></rss>

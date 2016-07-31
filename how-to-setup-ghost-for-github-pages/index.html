@@ -1,0 +1,225 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>How to setup Ghost for Github Pages</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=2edb652c82">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin-when-cross-origin">
+    
+    <meta property="og:site_name" content="tech.log">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="How to setup Ghost for Github Pages">
+    <meta property="og:description" content="GitHub provides a good option for hosting static blog as GitHub Pages and there are numerous platform to set up that static blog. Many of my friends use Jekyll for that purpose but I wanted to try something new so I thought about giving Ghost a try. Ghost is really">
+    <meta property="og:url" content="http://localhost:2368/how-to-setup-ghost-for-github-pages/">
+    <meta property="article:published_time" content="2015-09-25T08:32:00.000Z">
+    <meta property="article:modified_time" content="2016-07-31T08:40:07.000Z">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="How to setup Ghost for Github Pages">
+    <meta name="twitter:description" content="GitHub provides a good option for hosting static blog as GitHub Pages and there are numerous platform to set up that static blog. Many of my friends use Jekyll for that purpose but I wanted to try something new so I thought about giving Ghost a try. Ghost is really">
+    <meta name="twitter:url" content="http://localhost:2368/how-to-setup-ghost-for-github-pages/">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="kunal jain">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "tech.log",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "kunal jain",
+        "url": "http://localhost:2368/author/kunal/",
+        "sameAs": []
+    },
+    "headline": "How to setup Ghost for Github Pages",
+    "url": "http://localhost:2368/how-to-setup-ghost-for-github-pages/",
+    "datePublished": "2015-09-25T08:32:00.000Z",
+    "dateModified": "2016-07-31T08:40:07.000Z",
+    "description": "GitHub provides a good option for hosting static blog as GitHub Pages and there are numerous platform to set up that static blog. Many of my friends use Jekyll for that purpose but I wanted to try something new so I thought about giving Ghost a try. Ghost is really"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.9">
+    <link rel="alternate" type="application/rss+xml" title="tech.log" href="../rss/index.html">
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+    </ul>
+        <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">How to setup Ghost for Github Pages</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-09-25">25 September 2015</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>GitHub provides a good option for hosting static blog as GitHub Pages and there are numerous platform to set up that static blog. Many of my friends use Jekyll for that purpose but I wanted to try something new so I thought about giving Ghost a try.</p>
+
+<p>Ghost is really powerful blogging platform that is also open source, what else do you need? <br>
+Yes you are right, A small tutorial so that you can too set up Ghost for your GitHub Pages.</p>
+
+<h2 id="installnodejs">Install Node.js</h2>
+
+<p>Since Ghost is based on <strong>Node.js</strong> you will need it.</p>
+
+<pre><code>#dnf install nodejs
+</code></pre>
+
+<p>If you are on Linux almost all chances are that you have wget, but if you don't have wget just use command</p>
+
+<pre><code>#dnf install wget
+</code></pre>
+
+<p>and you are good to go.</p>
+
+<h2 id="downloadandinstallghost">Download and install Ghost</h2>
+
+<p>After you have install node.js next up is downloading and installing the Ghost package.</p>
+
+<p>Here I am creating an all new directory for Ghost but it all depends on you where you want to keep your files.</p>
+
+<pre><code>mkdir Ghost  
+cd Ghost  
+wget --no-check-certificate https://ghost.org/zip/ghost-0.7.0.zip  
+unzip ghost-0.7.0.zip
+</code></pre>
+
+<p>These commands will download the Ghost package from <a href="http://ghost.org">The Ghost Website</a>. Now to install it just run</p>
+
+<pre><code>npm install --production
+</code></pre>
+
+<p>and congratulations, you have successfully installed Ghost on your system. To start Ghost run</p>
+
+<pre><code>npm start
+</code></pre>
+
+<p>and Ghost is up and running locally on your system. Open <a href="../">http://localhost:2368</a> create a ghost account for yourself and read the initial blog on how to use markdown.</p>
+
+<h2 id="createyourgithubrepo">Create your GitHub Repo</h2>
+
+<p>First read official GitHub Pages documentation <a href="https://help.github.com/categories/github-pages-basics/">here</a> and proceed to create your repo. <br>
+Do <em>remember</em> that your repo name should be of form <code>username.github.io</code> and username should be in lower case.</p>
+
+<h2 id="exportghostcontentusingbuster">Export Ghost content using Buster</h2>
+
+<p>Once you have installed Ghost and also created repo, it is now turn to export your Ghost content to your GitHub Pages and start your static blog. Buster is really good tool to do so without any hassle. Install Buster with:</p>
+
+<pre><code>#dnf install pip
+#pip install buster
+</code></pre>
+
+<p>After installation is Complete, simply run following commands to export your content</p>
+
+<pre><code>buster setup --gh-repo=&lt;your repo url&gt;  
+buster generate --domain=http://localhost:2368  
+buster deploy
+</code></pre>
+
+<p>With this Buster adds, commits and pushes your Ghost content to your GitHub repo. All you have to do now is open <a href="http://kunal95jain.github.io/">http://username.github.io</a> and admire the beauty of Ghost on your blog.</p>
+
+<p>For writing and exporting new posts just start ghost and then deploy content using buster.</p>
+
+<p>That's it and Happy Blogging : )</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/kunal/">kunal jain</a></h4>
+
+                    <p>Read <a href="../author/kunal/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=How%20to%20setup%20Ghost%20for%20Github%20Pages&amp;url=http://localhost:2368/how-to-setup-ghost-for-github-pages/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/how-to-setup-ghost-for-github-pages/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/how-to-setup-ghost-for-github-pages/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story " style="background-image: url(../content/images/2016/07/12034277_1212115595480564_6698029746767033348_o-1.jpg)" href="../mozilla-maker-party-2k15/">
+        <section class="post">
+            <h2>Mozilla Maker Party 2k15</h2>
+            <p>You know, what is good about Mozilla Community?  They never say NO!!!  You want to contribute, yes. You want…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">tech.log</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=2edb652c82"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=2edb652c82"></script>
+
+</body>
